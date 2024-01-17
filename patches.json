@@ -1,0 +1,7 @@
+{
+  "magento/framework": {
+    "exception.log missing on 2.4.5": {
+        ">=103.0.5 <=103.0.5-p5": "PIXIE001__exception__2.4.5.patch"
+    }
+  }
+}
