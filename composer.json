@@ -2,7 +2,7 @@
     "name": "pixie-media/patching",
     "description": "Provides critical fixes for Magento 2",
     "type": "magento2-component",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "OSL-3.0",
     "repositories": {
         "repo.magento.com": {
