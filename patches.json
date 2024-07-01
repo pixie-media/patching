@@ -1,7 +1,12 @@
 {
   "magento/framework": {
     "exception.log missing on 2.4.5": {
-        ">=103.0.5 <=103.0.5-p5": "PIXIE001__exception__2.4.5.patch"
+      ">=103.0.5 <=103.0.5-p5": "PIXIE001__exception__2.4.5.patch"
+    }
+  },
+  "magento/module-sales": {
+    "Order status error": {
+      "103.0.7-p1": "PIXIE003__status__2.4.7-p1.patch"
     }
   }
 }

@@ -78,3 +78,4 @@ Note: You will need to revert changes to test patch applies correctly
 | ---------|----------|----------|
 | PIXIE001 | 2.4.5 No exception log fix | PIXIE001__exception__2.4.5.patch |
 | PIXIE002 | 3DS lookup error 2.4.5p1-p5 | PIXIE002__braintree-3ds-lookup-error-fix__2.4.5-p1_p2_p3_p4_p5.patch |
+| PIXIE003 | Order status error | PIXIE003__status__2.4.7-p1.patch |
