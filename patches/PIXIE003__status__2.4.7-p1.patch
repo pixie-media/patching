@@ -1,0 +1,20 @@
+diff --git a/vendor/magento/module-sales/Controller/Adminhtml/Order/AddComment.php b/vendor/magento/module-sales/Controller/Adminhtml/Order/AddComment.php
+index ea8af5828c..34608db2bd 100644
+--- a/vendor/magento/module-sales/Controller/Adminhtml/Order/AddComment.php     2024-06-29 09:53:19.997829986 +0200
++++ b/vendor/magento/module-sales/Controller/Adminhtml/Order/AddComment.php     2024-06-29 10:15:35.983809521 +0200
+@@ -91,7 +91,12 @@
+      */
+     private function getOrderStatus(string $orderStatus, string $historyStatus): string
+     {
+-        return ($orderStatus === Order::STATE_PROCESSING || $orderStatus === Order::STATUS_FRAUD) ? $historyStatus
+-            : $orderStatus;
++           // BUGFIX for https://github.com/magento/magento2/issues/38659
++           return $historyStatus;
++
++
++//        return ($orderStatus === Order::STATE_PROCESSING || $orderStatus === Order::STATUS_FRAUD) ? $historyStatus
++//            : $orderStatus;
++
+     }
+ }
+\ No newline at end of file
