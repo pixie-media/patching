@@ -2,7 +2,7 @@
     "name": "pixie-media/patching",
     "description": "Provides critical fixes for Magento 2",
     "type": "magento2-component",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "license": "OSL-3.0",
     "repositories": {
         "repo.magento.com": {
@@ -23,6 +23,9 @@
         "symfony/proxy-manager-bridge": "^3.3||^4.3||^5.0||^6.0",
         "symfony/yaml": "^4.4 || ^5.1 || ^5.4 || ^6.4 || ^7.2",
         "magento/quality-patches": "^1.1.0"
+    },
+    "replace": {
+        "magento/magento-cloud-patches": "^1.0"
     },
     "require-dev": {
         "codeception/codeception": "^4.1 || ^5.1",
